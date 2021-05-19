@@ -107,12 +107,13 @@
             // 
             // btnSave
             // 
+            this.btnSave.BackColor = System.Drawing.Color.Blue;
             this.btnSave.Location = new System.Drawing.Point(127, 206);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(127, 23);
             this.btnSave.TabIndex = 8;
             this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // txbxAddress
@@ -136,6 +137,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Red;
             this.ClientSize = new System.Drawing.Size(301, 263);
             this.Controls.Add(this.txbxAddress);
             this.Controls.Add(this.label5);
